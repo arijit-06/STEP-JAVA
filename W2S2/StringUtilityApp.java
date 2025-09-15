@@ -8,6 +8,7 @@ public class StringUtilityApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("=== STRING UTILITY APPLICATION ===");
+        System.out.print("Enter text: ");
         String text = sc.nextLine();
         performTextAnalysis(text);
         performASCIIOperations(text);
@@ -20,7 +21,8 @@ public class StringUtilityApp {
 
     public static void performTextAnalysis(String text) {
         output.append("Length: ").append(text.length()).append("\n");
-        output.append("Words: ").append(text.split("\\s+").length).append("\n");
+        int wordCount = text.trim().isEmpty() ? 0 : text.split("\\s+").length;
+        output.append("Words: ").append(wordCount).append("\n");
     }
 
     public static String performTransformations(String text, String[] ops) {
@@ -45,7 +47,6 @@ public class StringUtilityApp {
         String s = "";
         for (int i = 0; i < iterations; i++)
             s += "a";
-        s = "abc";
         long t2 = System.nanoTime();
         output.append("String: ").append(t2 - t1).append("\n");
         t1 = System.nanoTime();
