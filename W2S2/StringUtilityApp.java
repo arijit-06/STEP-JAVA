@@ -44,7 +44,8 @@ public class StringUtilityApp {
 
     public static void performPerformanceTest(int iterations) {
         long t1 = System.nanoTime();
-        String s = "";
+        String s;
+        s = "";
         for (int i = 0; i < iterations; i++)
             s += "a";
         long t2 = System.nanoTime();
