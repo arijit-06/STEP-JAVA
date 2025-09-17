@@ -1,0 +1,240 @@
+🔹 Practice Problems
+
+✅ Default and Parameterized Constructors (Book)
+✅ Gaming Controller Configuration System  
+✅ Music Production Studio Equipment (Constructor Chaining)
+✅ Smart Home Device Network (this keyword)
+✅ Counter (static keyword)
+✅ Type Checking with instanceof
+
+✅ Total Practice Problems: 6
+
+🔹 Extra Practice Problems
+
+🎮 Virtual Pet Evolution Simulator
+🏰 Medieval Kingdom Builder with Magic System
+🚀 Space Station Crew Management System
+🎭 Interactive Story Generator with Dynamic Characters
+
+✅ Total Extra Practice Problems: 4
+
+🔹 Assignment Problems
+
+🎬 Movie Ticket Booking
+💳 Bank Account System
+📚 Library Book Management
+🍔 Food Delivery Order
+🏃 Fitness Tracker
+
+✅ Total Assignment Problems: 5
+
+===========================================
+PRACTICE PROBLEM 1: Default and Parameterized Constructors (Book)
+===========================================
+
+Create a Book class that demonstrates different constructor patterns:
+
+Requirements:
+- Default constructor: Creates a book with title "Unknown", author "Anonymous", pages 0, price 0.0
+- Constructor with title only: Sets author to "Anonymous", pages to 100, price to 10.0
+- Constructor with title and author: Sets pages to 200, price to 15.0
+- Full constructor: Takes all parameters (title, author, pages, price)
+- All constructors should validate inputs and use constructor chaining
+- Include methods: displayInfo(), isExpensive() (price > 20), getBookSummary()
+
+===========================================
+PRACTICE PROBLEM 2: Gaming Controller Configuration System
+===========================================
+
+Create a GameController class with multiple constructor options:
+
+Requirements:
+- Default constructor: Creates basic controller with default settings
+- Constructor with controller type: Sets type-specific defaults
+- Constructor with type and custom settings: Allows full customization
+- Include fields: controllerType, buttonCount, hasVibration, batteryLevel, customSettings
+- Methods: configure(), testController(), getBatteryStatus(), updateSettings()
+- Demonstrate constructor chaining and parameter validation
+
+===========================================
+PRACTICE PROBLEM 3: Music Production Studio Equipment (Constructor Chaining)
+===========================================
+
+Create a StudioEquipment class hierarchy demonstrating constructor chaining:
+
+Requirements:
+- Base class with equipment name, brand, price, condition
+- Derived classes: Microphone, Mixer, Speaker, Synthesizer
+- Each class should have multiple constructors that chain to parent
+- Include methods for equipment testing, maintenance, and value calculation
+- Demonstrate proper use of super() in constructor chaining
+
+===========================================
+PRACTICE PROBLEM 4: Smart Home Device Network (this keyword)
+===========================================
+
+Create a SmartDevice class that extensively uses 'this' keyword:
+
+Requirements:
+- Fields: deviceId, deviceName, location, isConnected, batteryLevel
+- Constructor that uses 'this' to resolve parameter shadowing
+- Methods that use 'this' for method chaining: setName(), setLocation(), connect()
+- Method that returns 'this' for fluent interface pattern
+- Demonstrate 'this' in constructor chaining and method calls
+
+===========================================
+PRACTICE PROBLEM 5: Counter (static keyword)
+===========================================
+
+Create a Counter class demonstrating static members:
+
+Requirements:
+- Static field: totalCounters (tracks how many Counter objects created)
+- Static field: globalCount (shared across all instances)
+- Instance field: instanceCount (individual counter value)
+- Static methods: getTotalCounters(), resetGlobalCount(), getGlobalCount()
+- Instance methods: increment(), decrement(), reset(), getValue()
+- Static initialization block to initialize static fields
+- Demonstrate static vs instance member access
+
+===========================================
+PRACTICE PROBLEM 6: Type Checking with instanceof
+===========================================
+
+Create a Vehicle hierarchy with instanceof usage:
+
+Requirements:
+- Base Vehicle class with common properties
+- Derived classes: Car, Motorcycle, Truck, Bicycle
+- Create a VehicleManager class with methods that use instanceof:
+  - processVehicle(Vehicle v) - different processing based on type
+  - calculateToll(Vehicle v) - different rates for different vehicle types
+  - performMaintenance(Vehicle v) - type-specific maintenance
+- Demonstrate safe casting after instanceof checks
+- Include array/collection processing with mixed vehicle types
+
+===========================================
+EXTRA PRACTICE PROBLEM 1: 🎮 Virtual Pet Evolution Simulator
+===========================================
+
+Create a comprehensive virtual pet system:
+
+Requirements:
+- Pet class with multiple constructors for different pet types
+- Static tracking of total pets created and species counts
+- Evolution system using instanceof to determine evolution paths
+- Pet care methods using 'this' for method chaining
+- Static utility methods for pet statistics and global operations
+- Demonstrate all constructor patterns, static members, and instanceof usage
+
+===========================================
+EXTRA PRACTICE PROBLEM 2: 🏰 Medieval Kingdom Builder with Magic System
+===========================================
+
+Create a kingdom management system:
+
+Requirements:
+- Building hierarchy with constructor chaining (Castle, Tower, Wall, etc.)
+- Static kingdom resources and population tracking
+- Magic system using instanceof for spell compatibility
+- Builder pattern using 'this' for fluent interface
+- Static methods for kingdom-wide operations and statistics
+- Demonstrate complex object interactions and type checking
+
+===========================================
+EXTRA PRACTICE PROBLEM 3: 🚀 Space Station Crew Management System
+===========================================
+
+Create a space station crew system:
+
+Requirements:
+- CrewMember hierarchy with different specializations
+- Static tracking of crew statistics and mission parameters
+- Assignment system using instanceof for role compatibility
+- Crew scheduling using 'this' for method chaining
+- Static emergency protocols and station-wide communications
+- Demonstrate advanced constructor patterns and static member usage
+
+===========================================
+EXTRA PRACTICE PROBLEM 4: 🎭 Interactive Story Generator with Dynamic Characters
+===========================================
+
+Create a dynamic story generation system:
+
+Requirements:
+- Character class hierarchy with multiple constructor patterns
+- Static story elements and narrative tracking
+- Story progression using instanceof for character interactions
+- Character development using 'this' for state management
+- Static story utilities and global narrative control
+- Demonstrate complex object relationships and type-based logic
+
+===========================================
+ASSIGNMENT PROBLEM 1: 🎬 Movie Ticket Booking
+===========================================
+
+Create a movie ticket booking system:
+
+Requirements:
+- Movie class with multiple constructors (title only, title+genre, full details)
+- Ticket class with constructor chaining for different ticket types
+- Static tracking of total bookings and revenue
+- Booking system using instanceof for different customer types
+- Customer class using 'this' for profile management
+- Static methods for theater statistics and management
+
+===========================================
+ASSIGNMENT PROBLEM 2: 💳 Bank Account System
+===========================================
+
+Create a banking system:
+
+Requirements:
+- Account class hierarchy with constructor chaining
+- Static bank-wide statistics and regulations
+- Transaction processing using instanceof for different transaction types
+- Account management using 'this' for fluent operations
+- Static utility methods for bank operations and reporting
+- Demonstrate secure constructor patterns and static member management
+
+===========================================
+ASSIGNMENT PROBLEM 3: 📚 Library Book Management
+===========================================
+
+Create a library management system:
+
+Requirements:
+- Book class with multiple constructor patterns
+- Member class hierarchy with constructor chaining
+- Static library statistics and inventory tracking
+- Book processing using instanceof for different book types
+- Library operations using 'this' for method chaining
+- Static methods for library-wide management and reporting
+
+===========================================
+ASSIGNMENT PROBLEM 4: 🍔 Food Delivery Order
+===========================================
+
+Create a food delivery system:
+
+Requirements:
+- Food item hierarchy with constructor chaining
+- Order class with multiple constructor patterns
+- Static tracking of delivery statistics and restaurant data
+- Order processing using instanceof for different food types
+- Customer class using 'this' for order management
+- Static methods for delivery optimization and business analytics
+
+===========================================
+ASSIGNMENT PROBLEM 5: 🏃 Fitness Tracker
+===========================================
+
+Create a fitness tracking system:
+
+Requirements:
+- Exercise class hierarchy with constructor chaining
+- User class with multiple constructor patterns
+- Static fitness statistics and global challenges
+- Activity processing using instanceof for different exercise types
+- Workout planning using 'this' for session management
+- Static methods for fitness analytics and community features

@@ -1,0 +1,554 @@
+Practice Problem 1:
+Default and Parameterized Constructors
+Task: Create a class representing a Book with attributes: title, author, and price.
+● Implement a default constructor that sets generic values.
+● Implement a parameterized constructor to set all fields.
+● In main, create one Book object using each constructor and display their values.
+
+public class Book {
+String title;
+String author;
+double price;
+// TODO: Default constructor
+// TODO: Parameterized constructor
+// TODO: Display method
+public static void main(String[] args) {
+// TODO: Create book1 using default constructor
+// TODO: Create book2 using parameterized constructor
+// TODO: Display both books
+}
+}
+
+1
+
+️ PRACTICE PROBLEM 2: Gaming Controller Configuration
+System
+Default and Parameterized Constructors
+Task: Create a gaming controller configuration system that demonstrates constructor
+patterns without typical examples.
+public class GameController {
+// TODO: Instance variables for controller configuration
+private String controllerBrand;
+private String connectionType;
+private boolean hasVibration;
+private int batteryLevel;
+private double sensitivity;
+// TODO: Default constructor - creates standard gaming setup
+public GameController() {
+// TODO: Set default values:
+// - brand: "GenericPad"
+// - connection: "USB"
+// - vibration: true
+// - battery: 100
+// - sensitivity: 1.0
+}
+// TODO: Parameterized constructor for custom configuration
+public GameController(String controllerBrand, String
+connectionType,
+boolean hasVibration, int batteryLevel,
+double sensitivity) {
+// TODO: Initialize all fields with provided values
+// TODO: Validate battery level (0-100) and sensitivity
+(0.1-3.0)
+}
+// TODO: Two-parameter convenience constructor
+
+2
+
+public GameController(String brand, String connectionType) {
+// TODO: Set provided values and use defaults for others
+}
+// TODO: Methods to test functionality
+public void calibrateController() {
+System.out.println("Calibrating " + controllerBrand + "
+controller...");
+}
+public void displayConfiguration() {
+// TODO: Print all controller settings
+}
+public void testVibration() {
+if (hasVibration) {
+System.out.println("*BUZZ* Vibration test successful!");
+} else {
+System.out.println("Vibration disabled on this
+controller.");
+}
+}
+public static void main(String[] args) {
+// TODO: Create controller with default constructor
+// TODO: Create controller with full parameterized
+constructor
+// TODO: Create controller with convenience constructor
+// TODO: Test all methods on each controller
+// TODO: Compare different configurations
+System.out.println("=== GAMING CONTROLLER SETUP ===");
+// Your implementation here
+}
+}
+
+3
+
+️ PRACTICE PROBLEM 3: Music Production Studio
+Equipment
+Constructor Overloading and this() Chaining
+Task: Build a music equipment management system demonstrating constructor
+chaining patterns.
+public class AudioMixer {
+private String mixerModel;
+private int numberOfChannels;
+private boolean hasBluetoothConnectivity;
+private double maxVolumeDecibels;
+private String[] connectedDevices;
+private int deviceCount;
+// TODO: No-argument constructor using this() chaining
+public AudioMixer() {
+// TODO: Call three-parameter constructor with defaults:
+// - model: "StandardMix-8"
+// - channels: 8
+// - bluetooth: false
+}
+// TODO: Two-parameter constructor using this() chaining
+public AudioMixer(String mixerModel, int numberOfChannels) {
+// TODO: Call three-parameter constructor with bluetooth
+disabled
+}
+// TODO: Three-parameter constructor using this() chaining
+public AudioMixer(String mixerModel, int numberOfChannels,
+boolean hasBluetoothConnectivity) {
+// TODO: Call main constructor with default max volume
+(120.0)
+
+4
+
+}
+// TODO: Main constructor - all parameters
+public AudioMixer(String mixerModel, int numberOfChannels,
+boolean hasBluetoothConnectivity, double
+maxVolumeDecibels) {
+// TODO: Initialize all fields
+// TODO: Initialize connectedDevices array based on
+numberOfChannels
+// TODO: Set deviceCount to 0
+// TODO: Print constructor execution message
+}
+public void connectDevice(String deviceName) {
+if (deviceCount < connectedDevices.length) {
+connectedDevices[deviceCount] = deviceName;
+deviceCount++;
+System.out.println("Connected: " + deviceName);
+} else {
+System.out.println("All channels occupied!");
+}
+}
+public void displayMixerStatus() {
+System.out.println("\n=== " + mixerModel + " STATUS ===");
+System.out.println("Channels: " + numberOfChannels);
+System.out.println("Bluetooth: " + (hasBluetoothConnectivity
+? "Enabled" : "Disabled"));
+System.out.println("Max Volume: " + maxVolumeDecibels + "
+dB");
+System.out.println("Connected Devices: " + deviceCount + "/"
++ numberOfChannels);
+for (int i = 0; i < deviceCount; i++) {
+System.out.println(" Channel " + (i + 1) + ": " +
+connectedDevices[i]);
+}
+
+5
+
+}
+public static void main(String[] args) {
+System.out.println("=== MUSIC STUDIO SETUP ===");
+// TODO: Create mixer using no-argument constructor
+// TODO: Create mixer using two-parameter constructor
+// TODO: Create mixer using three-parameter constructor
+// TODO: Create mixer using full constructor
+// TODO: Connect different devices to each mixer
+// TODO: Display status of all mixers
+// TODO: Comment on constructor chaining execution order
+}
+}
+
+Practice Problem 4:Smart Home Device Network
+this Keyword Usage and Constructor Parameter Disambiguation
+Task: Create a smart device network system showcasing extensive this keyword usage.
+public class SmartDevice {
+private String deviceName;
+
+6
+
+private String location;
+private boolean isOnline;
+private double powerConsumption;
+private String[] connectedDevices;
+private int connectionCount;
+// TODO: Constructor with parameter names matching field names
+public SmartDevice(String deviceName, String location,
+boolean isOnline, double powerConsumption) {
+// TODO: Use this keyword to distinguish between parameters
+and fields
+// TODO: Initialize connectedDevices array (size 5)
+// TODO: Set connectionCount to 0
+}
+// TODO: Method using this for parameter disambiguation
+public void updateLocation(String location) {
+// TODO: Use this.location to assign parameter value
+System.out.println(this.deviceName + " moved to " +
+this.location);
+}
+public void updatePowerConsumption(double powerConsumption) {
+// TODO: Use this keyword when parameter name matches field
+System.out.println("Power consumption updated for " +
+this.deviceName);
+}
+// TODO: Method returning this for chaining
+public SmartDevice setOnline(boolean isOnline) {
+// TODO: Use this keyword and return this for method chaining
+this.isOnline = isOnline;
+return this;
+}
+public SmartDevice connectToDevice(String deviceName) {
+// TODO: Add device to connectedDevices array
+
+7
+
+if (this.connectionCount < this.connectedDevices.length) {
+this.connectedDevices[this.connectionCount] = deviceName;
+this.connectionCount++;
+System.out.println(this.deviceName + " connected to " +
+deviceName);
+}
+return this; // Enable method chaining
+}
+public SmartDevice rename(String deviceName) {
+// TODO: Use this keyword for disambiguation
+String oldName = this.deviceName;
+this.deviceName = deviceName;
+System.out.println("Device renamed from " + oldName + " to "
++ this.deviceName);
+return this;
+}
+public void displayDeviceInfo() {
+// TODO: Use this keyword to access instance variables
+System.out.println("\n=== " + this.deviceName + " INFO ===");
+System.out.println("Location: " + this.location);
+System.out.println("Status: " + (this.isOnline ? "Online" :
+"Offline"));
+System.out.println("Power: " + this.powerConsumption + "W");
+System.out.println("Connections: " + this.connectionCount);
+for (int i = 0; i < this.connectionCount; i++) {
+System.out.println(" -> " + this.connectedDevices[i]);
+}
+}
+// TODO: Method that calls other methods using this
+public void performInitialSetup() {
+// TODO: Use this to call other methods
+this.setOnline(true);
+System.out.println(this.deviceName + " initial setup
+
+8
+
+completed");
+}
+public static void main(String[] args) {
+System.out.println("=== SMART HOME DEVICE NETWORK ===");
+// TODO: Create devices with parameter names matching field
+names
+// TODO: Test method chaining using returned this
+// TODO: Demonstrate this keyword in various contexts
+// TODO: Show parameter disambiguation scenarios
+// Example of method chaining:
+//
+device.setOnline(true).connectToDevice("Alexa").rename("Kitchen
+Hub");
+}
+}
+
+Practice Problem 5:
+
+9
+
+static Keyword Usage
+Task: Implement a class Counter that tracks how many objects have been created.
+● Use a static variable for the object count.
+● Write a static method to return the count.
+● In main, create several objects and show the count.
+public class Counter {
+static int count = 0;
+Counter() {
+// TODO: Increment count
+}
+// TODO: Static method getCount()
+public static void main(String[] args) {
+// TODO: Create several Counter objects
+// TODO: Display number of objects created
+}
+}
+
+Practice Problem 6:
+
+10
+
+instanceof for Type Checking
+Task: Create classes Animal, Dog, and Cat (both extend Animal).
+● In main, create an array of Animal containing Dog and Cat objects.
+● Use instanceof to count how many Dog and Cat objects in the array.
+class Animal {}
+class Dog extends Animal {}
+class Cat extends Animal {}
+public class TestInstanceof {
+public static void main(String[] args) {
+Animal[] animals = { new Dog(), new Cat(), new Dog(), new
+Animal() };
+// TODO: Count number of Dog and Cat instances using
+instanceof
+// TODO: Print results
+}
+}
+
+Practice Problem 1: 🎮 Virtual Pet Evolution Simulator
+Topics Covered: Constructor Overloading, this() Chaining, final Keyword, static Usage
+Theme: Create a Tamagotchi-style virtual pet that evolves based on care!
+Requirements: Design a VirtualPet class that simulates pet evolution through different life
+stages.
+Hints: a. Create VirtualPet class with fields:
+● final String petId (generated using UUID-like system)
+● String petName, String species, int age, int happiness, int health
+● static final String[] EVOLUTION_STAGES = {"Egg", "Baby", "Child",
+"Teen", "Adult", "Elder"}
+● static int totalPetsCreated
+b. Implement evolution-based constructors:
+● Default constructor: Creates a mysterious egg with random species
+● Constructor with name only: Pet starts as baby stage
+● Constructor with name and species: Pet starts as child stage
+● Full constructor: Specify all initial stats and stage
+c. Use this() chaining where all constructors eventually call the main constructor
+d. Create unique methods:
+● evolvePet(): Changes evolution stage based on age and care
+● feedPet(), playWithPet(), healPet(): Affect happiness and health
+● simulateDay(): Ages pet and randomly affects stats
+
+3
+
+● getPetStatus(): Returns current evolution stage
+● static generatePetId(): Creates unique IDs
+e. Twist: Pet dies if health reaches 0, becomes "Ghost" type that can't evolve but can haunt
+other pets!
+f. In main method: Create a pet daycare with multiple pets, simulate several days, show
+evolution progress
+
+Practice Problem 2: 🏰 Medieval Kingdom Builder with Magic System
+Topics Covered: instanceof Type Checking, Inheritance, Constructor Chaining, this Keyword
+Theme: Build a magical kingdom where different structures have unique powers!
+Requirements: Create a kingdom building system with magical structures that interact with
+each other.
+Hints: a. Create abstract MagicalStructure base class:
+● Fields: String structureName, int magicPower, String location, boolean
+isActive
+● Constructor overloading with this() chaining
+● Abstract method: castMagicSpell()
+b. Create derived magical structures:
+● WizardTower (additional: int spellCapacity, String[] knownSpells)
+● EnchantedCastle (additional: int defenseRating, boolean hasDrawbridge)
+● MysticLibrary (additional: int bookCount, String ancientLanguage)
+● DragonLair (additional: String dragonType, int treasureValue)
+c. Each structure type has unique constructor patterns:
+● WizardTower: Can be built empty, with basic spells, or fully equipped
+● Castle: Can be a simple fort, royal castle, or impregnable fortress
+● Library: Can start with few books or ancient collections
+● DragonLair: Different dragons have different lair requirements
+d. Implement magical interactions using instanceof:
+
+4
+
+● static boolean canStructuresInteract(MagicalStructure s1,
+MagicalStructure s2)
+● static String performMagicBattle(MagicalStructure attacker,
+MagicalStructure defender)
+● static int calculateKingdomMagicPower(MagicalStructure[]
+structures)
+e. Twist: Some structure combinations create special effects:
+● WizardTower + Library = Knowledge boost (double spell capacity)
+● Castle + DragonLair = Dragon guard (triple defense)
+● Multiple towers = Magic network (shared spell pool)
+f. Create a KingdomManager that uses instanceof to:
+● Categorize structures by type
+● Calculate different tax rates for each structure type
+● Determine kingdom specialization (Magic-focused, Defense-focused, etc.)
+
+Practice Problem 3: 🚀 Space Station Crew Management System
+Topics Covered: final Keyword Variations, static Usage, Constructor Overloading, this Keyword
+Theme: Manage a space station where crew members have fixed roles but evolving skills!
+Requirements: Design a space crew system where certain attributes are permanently fixed
+while others can change.
+Hints: a. Create SpaceCrew class with strategic final usage:
+● final String crewId (cannot change - permanent space ID)
+● final String homeplanet (where they're from - cannot change)
+● final CrewRank initialRank (starting rank - promotional history)
+● Regular fields: currentRank, skillLevel, missionCount, spaceHours
+● static final String STATION_NAME = "Stellar Odyssey"
+● static final int MAX_CREW_CAPACITY = 50
+b. Create final enum CrewRank:
+
+5
+
+public enum CrewRank {
+CADET(1), OFFICER(2), COMMANDER(3), CAPTAIN(4), ADMIRAL(5);
+private final int level;
+// Constructor and methods
+}
+c. Implement diverse constructors:
+● Emergency recruitment (minimal info - generates random homeplanet)
+● Standard recruitment (name, homeplanet, rank)
+● Experienced transfer (includes previous mission count and skills)
+● Full detailed profile constructor
+d. Create final methods that cannot be overridden:
+● final String getCrewIdentification(): Returns permanent ID info
+● final boolean canBePromoted(): Based on fixed initial rank and current status
+● final int calculateSpaceExperience(): Complex calculation that subclasses
+cannot modify
+e. Unique twist: Create specialized crew types:
+● PilotCrew (cannot change flight certifications once assigned)
+● ScienceCrew (research specialization is permanent)
+● EngineerCrew (engineering type certification is final)
+f. Create a final class SpaceStationRegistry (cannot be extended):
+● Manages all crew assignments
+● Has static methods for station-wide operations
+● Tracks crew statistics and handles emergencies
+g. Space Emergency Scenario: When station faces crisis, certain crew combinations are
+needed:
+● Use final methods to determine eligibility
+● Some crew members' final attributes make them irreplaceable for certain tasks
+
+6
+
+Practice Problem 4: 🎭 Interactive Story Generator with Dynamic
+Characters
+Topics Covered: All Concepts Integration - The Ultimate Challenge!
+Theme: Create an AI-like story generator where characters evolve and interact dynamically!
+Requirements: Build a complex story system where characters have fixed backstories but
+dynamic relationships and adventures.
+Hints: a. Create StoryCharacter base class with mixed final and dynamic attributes:
+● final String characterId, final String backstory, final
+PersonalityType corePersonality
+● Dynamic: currentMood, relationshipMap, skillSet, currentLocation
+● static final String[] STORY_GENRES = {"Fantasy", "Sci-Fi",
+"Mystery", "Romance", "Adventure"}
+b. Character types with unique constructor patterns:
+● Hero class: Different origin stories determine final abilities
+● Villain class: Evil motivation is permanent, but methods can evolve
+● MysteriousStranger class: Most attributes hidden, revealed through story
+● Comic Relief class: Humor style is final, but timing is dynamic
+c. Advanced constructor chaining scenarios:
+● Characters can be created from story prompts (parse text to determine traits)
+● Characters can be generated randomly based on genre
+● Characters can be imported from previous stories (with memory of past adventures)
+● Characters can be created through "character fusion" (combining two existing
+characters)
+d. Complex instanceof usage for story generation:
+● generateStoryArc(): Different character type combinations create different plot
+types
+● resolveConflict(): How characters interact depends on their exact types
+● createDialogue(): Speech patterns determined by character inheritance hierarchy
+e. Ultimate twist - Meta-Story Features:
+
+7
+
+● Characters can become "self-aware" and comment on their final limitations
+● Story can break "fourth wall" where characters complain about their constructor
+limitations
+● Characters can attempt to "hack" their own final attributes (always fails, but creates
+humor)
+f. Multi-layered story mechanics:
+● StoryEngine class uses all constructor concepts
+● Characters have final destinies but dynamic paths to reach them
+● Stories can be saved/loaded, preserving final attributes while allowing character
+growth
+● Story generation uses static methods for universal story rules
+g. Interactive Elements:
+● User choices affect character development (but can't change final traits)
+● Characters remember past interactions (stored in non-final fields)
+● Story branches based on character type combinations
+● Achievement system tracking different constructor usage patterns
+h. Technical Challenges:
+● Implement story serialization (saving character states while preserving final integrity)
+● Create a character relationship matrix using instanceof for compatibility
+● Build a story grammar system where character types determine available story actions
+● Design character evolution paths that respect final limitations while maximizing growth
+
+Expected Unique Output:
+● Generated stories that change based on character constructor combinations
+● Character dialogue that reflects their constructor heritage
+● Interactive story choices that demonstrate the constructor concept understanding
+● Meta-commentary where characters discuss their own programming limitations
+● Story statistics showing how different constructor patterns affect narrative outcomes
+
+Problem 1: Movie Ticket Booking 🎬
+Design a Movie Ticket System.
+● Class MovieTicket with fields: String movieName, String theatreName, int
+seatNumber, double price.
+● Implement constructor overloading:
+1. Default constructor → assigns "Unknown" movie.
+2. Constructor with movie name → assigns default price = 200.
+3. Constructor with movie name and seat number → assigns default theatre "PVR".
+4. Full constructor → sets all details.
+● Add method: printTicket() → displays ticket details.
+● In main(): Create and print multiple tickets.
+
+Problem 2: Bank Account System 💳
+Create a Bank Account management program.
+● Class BankAccount with fields: String accountHolder, int accountNumber,
+double balance.
+● Implement constructor overloading:
+○ Default constructor → balance = 0.
+○ Constructor with name → assigns random account number.
+○ Constructor with name and initial balance → assigns both.
+● Add methods:
+
+1
+
+○ deposit(double amount)
+○ withdraw(double amount)
+○ displayAccount()
+● In main(): Create accounts, deposit/withdraw, and display balance.
+
+Problem 3: Library Book Management 📚
+Design a system for managing Library Books.
+● Class Book with fields: String title, String author, String isbn, boolean
+isAvailable.
+● Constructor overloading:
+○ Default constructor → empty book.
+○ Constructor with title and author.
+○ Constructor with all details.
+● Methods:
+○ borrowBook() → sets available = false.
+○ returnBook() → sets available = true.
+○ displayBookInfo().
+● In main(): Create books, borrow/return them, display info.
+
+Problem 4: Food Delivery Order 🍔
+Create a program to simulate a Food Delivery System.
+
+2
+
+● Class FoodOrder with fields: String customerName, String foodItem, int
+quantity, double price.
+● Constructor overloading:
+1. Default constructor → assigns "Unknown" order.
+2. Constructor with food item → sets quantity = 1, price = default.
+3. Constructor with food item and quantity → calculates price = quantity ×
+fixedRate.
+
+● Method: printBill() → displays order details and total price.
+● In main(): Create multiple orders and print bills.
+
+Problem 5: Fitness Tracker 🏃
+Design a Fitness Tracker App simulation.
+● Class Workout with fields: String activityName, int durationInMinutes, int
+caloriesBurned.
+● Constructor overloading:
+1. Default constructor → "Walking", 30 mins, 100 calories.
+2. Constructor with activity name → assigns default duration.
+3. Constructor with activity and duration → calculate caloriesBurned = duration × 5.
+● Method: displayWorkout() → prints activity details.
+● In main(): Create different workouts and display details.
