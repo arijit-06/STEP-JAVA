@@ -23,22 +23,22 @@ This repository contains a comprehensive Java programming course structured as w
 
 #### **W3S3 - Object-Oriented Programming Fundamentals**
 - **Focus:** Classes, objects, encapsulation, real-world applications
-- **Files:** 13 Java programs
+- **Files:** 22 total (6 practice + 6 lab + 8 assignment + 2 documentation)
 - **Key Topics:** Banking systems, employee management, library systems
 
 #### **W4S4 - Advanced OOP Concepts**
 - **Focus:** Inheritance, polymorphism, method overriding
-- **Files:** 16 Java programs
+- **Files:** 17 total (4 practice + 6 lab + 5 assignment + 2 documentation)
 - **Key Topics:** Gaming systems, smart devices, virtual environments
 
 #### **W5S5 - Static Methods & Advanced Design**
 - **Focus:** Static members, design patterns, system architecture
-- **Files:** 16 Java programs
+- **Files:** 22 total (4 practice + 8 lab + 8 assignment + 2 documentation)
 - **Key Topics:** Complex system design, advanced OOP patterns
 
 #### **W6S6 - Inheritance Hierarchies**
 - **Focus:** Multi-level and hierarchical inheritance
-- **Files:** 3 Java programs
+- **Files:** 17 total (3 practice + 6 lab + 6 assignment + 2 documentation)
 - **Key Topics:** Advanced inheritance patterns, vehicle systems
 
 ## 📊 Learning Progression
@@ -74,10 +74,26 @@ STEP/
 │   ├── practice/ (6 files)
 │   ├── lab/ (6 files)
 │   └── assignment/ (6 files)
-├── W3S3/                       # OOP Fundamentals (13 files)
-├── W4S4/                       # Advanced OOP (16 files)
-├── W5S5/                       # Static Methods (16 files)
-└── W6S6/                       # Inheritance (3 files)
+├── W3S3/                       # OOP Fundamentals
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (6 files)
+│   ├── lab/ (6 files)
+│   └── assignment/ (8 files)
+├── W4S4/                       # Advanced OOP
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (4 files)
+│   ├── class_practice/ (6 files)
+│   └── assignment/ (5 files)
+├── W5S5/                       # Static Methods
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (4 files)
+│   ├── lab/ (8 files)
+│   └── assignment/ (8 files)
+└── W6S6/                       # Inheritance
+    ├── README.md & COMPLETION_STATUS.md
+    ├── practice/ (3 files)
+    ├── lab/ (6 files)
+    └── assignment/ (6 files)
 ```
 
 ## 🚀 Getting Started
