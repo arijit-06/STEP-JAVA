@@ -2,7 +2,7 @@ package lab;
 
 import java.util.*;
 
-public class Q5 {
+public class VowelConsonantCounter {
     static String type(char c) {
         if (c >= 'A' && c <= 'Z')
             c = (char) (c + 32);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Palindrome {
+public class PalindromeChecker {
     public static boolean logic1(String s) {
         int i = 0, j = s.length() - 1;
         while (i < j) {

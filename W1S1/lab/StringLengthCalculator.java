@@ -2,7 +2,7 @@ package lab;
 
 import java.util.*;
 
-public class Q1 {
+public class StringLengthCalculator {
     static int strLength(String s) {
         int count = 0;
         try {

@@ -2,7 +2,7 @@ package lab;
 
 import java.util.*;
 
-public class Q4 {
+public class ShortestLongestFinder {
     static int strLength(String s) {
         int c = 0;
         try {

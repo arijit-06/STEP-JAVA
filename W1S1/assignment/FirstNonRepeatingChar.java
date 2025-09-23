@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FirstNonRepeat {
+public class FirstNonRepeatingChar {
     public static char firstNonRepeat(String s) {
         int[] freq = new int[256];
         for (int i = 0; i < s.length(); i++)

@@ -2,7 +2,7 @@ package lab;
 
 import java.util.*;
 
-public class Q3 {
+public class TextSplitter {
     static int strLength(String s) {
         int c = 0;
         try {
@@ -41,22 +41,21 @@ public class Q3 {
         return words;
     }
 
-    static String[][] wordLengthTable(String[] words) {
-        String[][] res = new String[words.length][2];
-        for (int i = 0; i < words.length; i++) {
-            res[i][0] = words[i];
-            res[i][1] = String.valueOf(strLength(words[i]));
-        }
-        return res;
+    static boolean compare(String[] a, String[] b) {
+        if (a.length != b.length)
+            return false;
+        for (int i = 0; i < a.length; i++)
+            if (!a[i].equals(b[i]))
+                return false;
+        return true;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        String[] w = customSplit(s);
-        String[][] table = wordLengthTable(w);
-        for (int i = 0; i < table.length; i++)
-            System.out.println(table[i][0] + "\t" + Integer.parseInt(table[i][1]));
+        String[] a = customSplit(s);
+        String[] b = s.split(" ");
+        System.out.println(compare(a, b));
         sc.close();
     }
 }

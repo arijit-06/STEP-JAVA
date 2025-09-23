@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class UniqueChars {
+public class UniqueCharacterFinder {
     public static int length(String s) {
         int count = 0;
         try {

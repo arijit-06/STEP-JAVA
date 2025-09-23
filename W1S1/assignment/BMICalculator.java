@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BMI {
+public class BMICalculator {
     public static String[][] computeBMI(double[][] arr) {
         String[][] result = new String[10][4];
         for (int i = 0; i < 10; i++) {

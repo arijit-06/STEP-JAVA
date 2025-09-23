@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Deck {
+public class CardDeckSimulator {
     public static String[] initDeck() {
         String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
         String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };

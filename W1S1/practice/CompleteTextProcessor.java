@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TextProcessor {
+public class CompleteTextProcessor {
     public static String cleanInput(String input) {
         input = input.trim().replaceAll("\\s+", " ");
         String[] words = input.split(" ");

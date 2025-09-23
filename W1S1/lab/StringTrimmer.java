@@ -2,7 +2,7 @@ package lab;
 
 import java.util.*;
 
-public class Q7 {
+public class StringTrimmer {
     static int[] trimIdx(String s) {
         int start = 0, end = s.length() - 1;
         while (start <= end && s.charAt(start) == ' ')

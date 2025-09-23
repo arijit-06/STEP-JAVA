@@ -1,4 +1,4 @@
-public class StringArrays {
+public class StringArrayMethods {
     public static String findLongestName(String[] names) {
         String longest = "";
         for (String name : names) {

@@ -1,4 +1,4 @@
-public class SimpleStringMethods {
+public class StringInputProcessor {
 
     public static void main(String[] args) {
 
