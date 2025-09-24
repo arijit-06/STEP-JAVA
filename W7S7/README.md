@@ -49,6 +49,82 @@ This session covers polymorphism concepts in Java, including method overloading 
 - Prevent runtime exceptions through proper validation
 - Implement flexible polymorphic smart device control
 
+## 🧪 Lab Problems (8 Problems)
+
+### Lab 1: Food Delivery App - Method Overloading
+**File:** `lab/FoodDeliveryApp.java`
+- Calculate delivery charges in different ways
+- Basic, premium, group, and festival delivery options
+- Demonstrate method overloading with real-world scenarios
+
+### Lab 2: Social Media Feed - Method Overriding
+**File:** `lab/SocialMediaFeed.java`
+- Build posts for Instagram, Twitter, and LinkedIn
+- Each platform displays posts uniquely
+- Common post structure with platform-specific formatting
+
+### Lab 3: Gaming Character System - Dynamic Method Dispatch
+**File:** `lab/GamingCharacterSystem.java`
+- Warriors, Mages, and Archers with unique abilities
+- Same attack command, different behaviors
+- Mixed army array with runtime method resolution
+
+### Lab 4: University Library System - Upcasting
+**File:** `lab/UniversityLibrarySystem.java`
+- Students, Faculty, and Guests with different privileges
+- General LibraryUser system for common operations
+- Safe upcasting for institutional-level processing
+
+### Lab 5: Movie Streaming Platform - Downcasting
+**File:** `lab/MovieStreamingPlatform.java`
+- Movies, TV Series, and Documentaries with specific features
+- Access content-specific functionality when needed
+- Demonstrate safe downcasting techniques
+
+### Lab 6: Smart Campus IoT System - Safe instanceof
+**File:** `lab/SmartCampusIoT.java`
+- Smart classrooms, labs, and libraries
+- Process mixed device collections safely
+- Prevent crashes with proper type checking
+
+### Lab 7: E-Commerce Recommendation Engine - Multiple Integration
+**File:** `lab/ECommerceRecommendation.java`
+- Electronics, Clothing, and Books with different recommendations
+- Combine overloading, overriding, and safe casting
+- Comprehensive polymorphism demonstration
+
+### Lab 8: Virtual Pet Simulator - Complete Mastery
+**File:** `lab/VirtualPetSimulator.java`
+- Dogs, Cats, and Birds with unique behaviors
+- All polymorphism concepts working together
+- Inheritance, overloading, overriding, and casting
+
+## 📋 Assignment Problems (4 Problems)
+
+### Assignment 1: Hotel Booking System - Method Overloading
+**File:** `assignment/HotelBookingSystem.java`
+- Multiple booking calculation methods
+- Standard, seasonal, corporate, and wedding packages
+- Detailed cost breakdown and savings display
+
+### Assignment 2: Online Learning Platform - Method Overriding
+**File:** `assignment/OnlineLearningPlatform.java`
+- Video, Interactive, Reading, and Certification courses
+- Each course type tracks progress differently
+- Common course foundation with specialized tracking
+
+### Assignment 3: Transportation Fleet Management - Dynamic Dispatch
+**File:** `assignment/TransportationFleet.java`
+- Buses, Taxis, Trains, and Bikes with unique dispatch
+- Unified dispatch system with vehicle-specific behavior
+- Real-world transportation scenarios
+
+### Assignment 4: Theme Park Management - Complete Integration
+**File:** `assignment/ThemeParkManagement.java`
+- Roller coasters, water rides, shows, and games
+- All polymorphism concepts in theme park context
+- Comprehensive attraction management system
+
 ## 🛠️ Key Concepts Covered
 
 ### Method Overloading (Compile-time Polymorphism)
@@ -78,28 +154,44 @@ This session covers polymorphism concepts in Java, including method overloading 
 
 ## 📊 Completion Requirements
 - **Practice Problems:** Complete all 6 problems
-- **Time Goal:** Aim to complete within 60 minutes
-- **Focus:** Understanding polymorphism concepts through practical implementation
+- **Lab Problems:** Complete all 8 problems
+- **Assignment Problems:** Complete all 4 problems
+- **Total:** 18 problems
+- **Time Goal:** Aim to complete within 3-4 hours
 
 ## 🚀 Getting Started
 1. Navigate to the W7S7 directory
-2. Start with Problem 1 (Method Overloading) for foundational concepts
-3. Progress through problems sequentially for best learning experience
-4. Test each implementation thoroughly with provided scenarios
-5. Observe different polymorphic behaviors in action
+2. Start with Practice Problems for foundational concepts
+3. Progress to Lab Problems for deeper understanding
+4. Complete Assignment Problems for comprehensive mastery
+5. Test each implementation thoroughly with provided scenarios
 
 ## 📁 File Structure
 ```
 W7S7/
 ├── README.md                           # This file
 ├── COMPLETION_STATUS.md                # Completion tracking
-└── practice/                           # Practice Problems (6)
-    ├── GameBattle.java                 # Method Overloading
-    ├── SocialMediaDemo.java            # Method Overriding
-    ├── FoodDelivery.java              # Dynamic Method Dispatch
-    ├── UniversitySystem.java          # Upcasting
-    ├── EntertainmentHub.java          # Downcasting
-    └── SmartHome.java                 # Safe instanceof Usage
+├── practice/                           # Practice Problems (6)
+│   ├── GameBattle.java                 # Method Overloading
+│   ├── SocialMediaDemo.java            # Method Overriding
+│   ├── FoodDelivery.java              # Dynamic Method Dispatch
+│   ├── UniversitySystem.java          # Upcasting
+│   ├── EntertainmentHub.java          # Downcasting
+│   └── SmartHome.java                 # Safe instanceof Usage
+├── lab/                               # Lab Problems (8)
+│   ├── FoodDeliveryApp.java           # Method Overloading
+│   ├── SocialMediaFeed.java           # Method Overriding
+│   ├── GamingCharacterSystem.java     # Dynamic Method Dispatch
+│   ├── UniversityLibrarySystem.java   # Upcasting
+│   ├── MovieStreamingPlatform.java    # Downcasting
+│   ├── SmartCampusIoT.java           # Safe instanceof
+│   ├── ECommerceRecommendation.java   # Multiple Integration
+│   └── VirtualPetSimulator.java      # Complete Mastery
+└── assignment/                        # Assignment Problems (4)
+    ├── HotelBookingSystem.java        # Method Overloading
+    ├── OnlineLearningPlatform.java    # Method Overriding
+    ├── TransportationFleet.java       # Dynamic Dispatch
+    └── ThemeParkManagement.java       # Complete Integration
 ```
 
 ## 💡 Tips for Success
