@@ -41,14 +41,21 @@ This repository contains a comprehensive Java programming course structured as w
 - **Files:** 17 total (3 practice + 6 lab + 6 assignment + 2 documentation)
 - **Key Topics:** Advanced inheritance patterns, vehicle systems
 
+### 🎯 Advanced Abstraction Track (Week 8)
+
+#### **W8S8 - Abstract Classes and Interfaces**
+- **Focus:** Abstract classes, interfaces, and advanced abstraction concepts
+- **Files:** 17 total (5 practice + 6 lab + 6 assignment)
+- **Key Topics:** Abstract methods, interface implementation, multiple inheritance, design patterns
+
 ## 📊 Learning Progression
 
 ```
-Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6)
-     ↓                    ↓                      ↓
-String Basics    →  String Mastery    →    OOP Mastery
-Custom Logic     →  Performance       →    System Design
-Basic Algorithms →  Advanced Algos    →    Real Applications
+Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Expert (W8S8)
+     ↓                    ↓                      ↓                ↓
+String Basics    →  String Mastery    →    OOP Mastery    →  Abstraction Mastery
+Custom Logic     →  Performance       →    System Design  →  Design Patterns
+Basic Algorithms →  Advanced Algos    →    Real Applications → Professional Architecture
 ```
 
 ## 🎯 Completion Requirements
@@ -59,6 +66,9 @@ Basic Algorithms →  Advanced Algos    →    Real Applications
 
 ### OOP Track
 - **W3S3-W6S6:** Complete all programs in each session
+
+### Advanced Abstraction Track
+- **W8S8:** Complete all 17 programs (5 practice + 6 lab + 6 assignment)
 
 ## 📁 Repository Structure
 ```
@@ -89,11 +99,16 @@ STEP/
 │   ├── practice/ (4 files)
 │   ├── lab/ (8 files)
 │   └── assignment/ (8 files)
-└── W6S6/                       # Inheritance
+├── W6S6/                       # Inheritance
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (3 files)
+│   ├── lab/ (6 files)
+│   └── assignment/ (6 files)
+└── W8S8/                       # Abstract Classes & Interfaces
     ├── README.md & COMPLETION_STATUS.md
-    ├── practice/ (3 files)
-    ├── lab/ (6 files)
-    └── assignment/ (6 files)
+    ├── practice/ (Vehicle, BankAccount, PaymentGateway, MultipleInterfaces, Employee)
+    ├── lab/ (FruitEdible, ShapeDrawable, VehicleMaintainable, EmployeePayable, AnimalSoundable, DeviceConnectable)
+    └── assignment/ (AbstractShape, PlayableInterface, VehicleFuelSystem, InterfaceInheritance, BankAbstraction, MultipleInterfaceConflict)
 ```
 
 ## 🚀 Getting Started
@@ -117,7 +132,7 @@ STEP/
    ```
 
 3. **Follow the progression:**
-   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6
+   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W8S8
    - Use COMPLETION_STATUS.md files to track progress
 
 ## 💡 Study Tips
@@ -134,6 +149,12 @@ STEP/
 - Focus on code reusability and maintainability
 - Implement and test thoroughly
 
+### For Advanced Abstraction (W8S8)
+- Master abstract class vs interface decisions
+- Practice multiple inheritance through interfaces
+- Focus on design patterns and architecture
+- Apply abstraction in complex systems
+
 ## 🏆 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -143,6 +164,8 @@ After completing this course, you will be able to:
 - ✅ Build real-world applications using OOP principles
 - ✅ Understand performance optimization techniques
 - ✅ Apply advanced Java concepts in practical scenarios
+- ✅ Master abstraction principles and design patterns
+- ✅ Implement professional-grade software architecture
 
 ## 📈 Progress Tracking
 
