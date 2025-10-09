@@ -41,6 +41,14 @@ This repository contains a comprehensive Java programming course structured as w
 - **Files:** 17 total (3 practice + 6 lab + 6 assignment + 2 documentation)
 - **Key Topics:** Advanced inheritance patterns, vehicle systems
 
+### 🔄 Polymorphism Track (Week 7)
+
+#### **W7S7 - Polymorphism in Java**
+- **Focus:** Method overloading, overriding, dynamic dispatch, casting
+- **Files:** 18 total (6 practice + 8 lab + 4 assignment)
+- **Key Topics:** Runtime polymorphism, safe type checking, JVM method resolution
+- **Difficulty:** Advanced
+
 ### 🎯 Advanced Abstraction Track (Week 8)
 
 #### **W8S8 - Abstract Classes and Interfaces**
@@ -58,11 +66,11 @@ This repository contains a comprehensive Java programming course structured as w
 ## 📊 Learning Progression
 
 ```
-Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Expert (W8S8) → Master (W9S9)
-     ↓                    ↓                      ↓                ↓              ↓
-String Basics    →  String Mastery    →    OOP Mastery    →  Abstraction    → Advanced Java
-Custom Logic     →  Performance       →    System Design  →  Design Patterns → Object Methods
-Basic Algorithms →  Advanced Algos    →    Real Applications → Professional   → Inner Classes
+Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Polymorphism (W7S7) → Expert (W8S8) → Master (W9S9)
+     ↓                    ↓                      ↓                     ↓                ↓              ↓
+String Basics    →  String Mastery    →    OOP Mastery    →    Method Dispatch   →  Abstraction    → Advanced Java
+Custom Logic     →  Performance       →    System Design  →    Type Safety      →  Design Patterns → Object Methods
+Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Resolution → Professional   → Inner Classes
 ```
 
 ## 🎯 Completion Requirements
@@ -73,6 +81,9 @@ Basic Algorithms →  Advanced Algos    →    Real Applications → Professiona
 
 ### OOP Track
 - **W3S3-W6S6:** Complete all programs in each session
+
+### Polymorphism Track
+- **W7S7:** Complete all 18 programs (6 practice + 8 lab + 4 assignment)
 
 ### Advanced Abstraction Track
 - **W8S8:** Complete all 17 programs (5 practice + 6 lab + 6 assignment)
@@ -114,6 +125,11 @@ STEP/
 │   ├── practice/ (3 files)
 │   ├── lab/ (6 files)
 │   └── assignment/ (6 files)
+├── W7S7/                       # Polymorphism
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (6 files)
+│   ├── lab/ (8 files)
+│   └── assignment/ (4 files)
 ├── W8S8/                       # Abstract Classes & Interfaces
 │   ├── README.md & COMPLETION_STATUS.md
 │   ├── practice/ (Vehicle, BankAccount, PaymentGateway, MultipleInterfaces, Employee)
@@ -145,7 +161,7 @@ STEP/
    ```
 
 3. **Follow the progression:**
-   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W8S8 → W9S9
+   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W7S7 → W8S8 → W9S9
    - Use COMPLETION_STATUS.md files to track progress
 
 ## 💡 Study Tips
@@ -161,6 +177,12 @@ STEP/
 - Practice designing class hierarchies
 - Focus on code reusability and maintainability
 - Implement and test thoroughly
+
+### For Polymorphism (W7S7)
+- Master compile-time vs runtime method resolution
+- Practice safe type casting and instanceof usage
+- Understand JVM method dispatch mechanisms
+- Apply polymorphism in real-world scenarios
 
 ### For Advanced Abstraction (W8S8)
 - Master abstract class vs interface decisions
@@ -182,6 +204,8 @@ After completing this course, you will be able to:
 - ✅ Design and implement object-oriented solutions
 - ✅ Build real-world applications using OOP principles
 - ✅ Understand performance optimization techniques
+- ✅ Master polymorphism and dynamic method dispatch
+- ✅ Apply safe type casting and runtime type checking
 - ✅ Apply advanced Java concepts in practical scenarios
 - ✅ Master abstraction principles and design patterns
 - ✅ Implement professional-grade software architecture
