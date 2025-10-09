@@ -48,14 +48,21 @@ This repository contains a comprehensive Java programming course structured as w
 - **Files:** 17 total (5 practice + 6 lab + 6 assignment)
 - **Key Topics:** Abstract methods, interface implementation, multiple inheritance, design patterns
 
+### 🔧 Advanced Java Concepts Track (Week 9)
+
+#### **W9S9 - Object Class Methods and Inner Classes**
+- **Focus:** Object class methods and inner class implementations
+- **Files:** 7 total (7 assignment)
+- **Key Topics:** toString, equals, hashCode, getClass, clone, member/static/anonymous inner classes
+
 ## 📊 Learning Progression
 
 ```
-Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Expert (W8S8)
-     ↓                    ↓                      ↓                ↓
-String Basics    →  String Mastery    →    OOP Mastery    →  Abstraction Mastery
-Custom Logic     →  Performance       →    System Design  →  Design Patterns
-Basic Algorithms →  Advanced Algos    →    Real Applications → Professional Architecture
+Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Expert (W8S8) → Master (W9S9)
+     ↓                    ↓                      ↓                ↓              ↓
+String Basics    →  String Mastery    →    OOP Mastery    →  Abstraction    → Advanced Java
+Custom Logic     →  Performance       →    System Design  →  Design Patterns → Object Methods
+Basic Algorithms →  Advanced Algos    →    Real Applications → Professional   → Inner Classes
 ```
 
 ## 🎯 Completion Requirements
@@ -69,6 +76,9 @@ Basic Algorithms →  Advanced Algos    →    Real Applications → Professiona
 
 ### Advanced Abstraction Track
 - **W8S8:** Complete all 17 programs (5 practice + 6 lab + 6 assignment)
+
+### Advanced Java Concepts Track
+- **W9S9:** Complete all 7 programs (7 assignment)
 
 ## 📁 Repository Structure
 ```
@@ -104,11 +114,14 @@ STEP/
 │   ├── practice/ (3 files)
 │   ├── lab/ (6 files)
 │   └── assignment/ (6 files)
-└── W8S8/                       # Abstract Classes & Interfaces
+├── W8S8/                       # Abstract Classes & Interfaces
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (Vehicle, BankAccount, PaymentGateway, MultipleInterfaces, Employee)
+│   ├── lab/ (FruitEdible, ShapeDrawable, VehicleMaintainable, EmployeePayable, AnimalSoundable, DeviceConnectable)
+│   └── assignment/ (AbstractShape, PlayableInterface, VehicleFuelSystem, InterfaceInheritance, BankAbstraction, MultipleInterfaceConflict)
+└── W9S9/                       # Object Class Methods & Inner Classes
     ├── README.md & COMPLETION_STATUS.md
-    ├── practice/ (Vehicle, BankAccount, PaymentGateway, MultipleInterfaces, Employee)
-    ├── lab/ (FruitEdible, ShapeDrawable, VehicleMaintainable, EmployeePayable, AnimalSoundable, DeviceConnectable)
-    └── assignment/ (AbstractShape, PlayableInterface, VehicleFuelSystem, InterfaceInheritance, BankAbstraction, MultipleInterfaceConflict)
+    └── assignment/ (VehicleRental, EmployeeAuth, PaymentGateway, Registration, HospitalManagement, AppConfigurator, NotificationService)
 ```
 
 ## 🚀 Getting Started
@@ -132,7 +145,7 @@ STEP/
    ```
 
 3. **Follow the progression:**
-   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W8S8
+   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W8S8 → W9S9
    - Use COMPLETION_STATUS.md files to track progress
 
 ## 💡 Study Tips
@@ -155,6 +168,12 @@ STEP/
 - Focus on design patterns and architecture
 - Apply abstraction in complex systems
 
+### For Advanced Java Concepts (W9S9)
+- Master Object class method overriding
+- Understand different types of inner classes
+- Apply object comparison and cloning strategies
+- Implement professional Java patterns
+
 ## 🏆 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -166,6 +185,8 @@ After completing this course, you will be able to:
 - ✅ Apply advanced Java concepts in practical scenarios
 - ✅ Master abstraction principles and design patterns
 - ✅ Implement professional-grade software architecture
+- ✅ Apply advanced Java concepts and inner classes
+- ✅ Handle object methods and cloning strategies
 
 ## 📈 Progress Tracking
 
