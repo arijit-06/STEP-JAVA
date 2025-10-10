@@ -60,7 +60,7 @@ This repository contains a comprehensive Java programming course structured as w
 
 #### **W9S9 - Object Class Methods and Inner Classes**
 - **Focus:** Object class methods and inner class implementations
-- **Files:** 7 total (7 assignment)
+- **Files:** 19 total (6 practice + 6 lab + 7 assignment)
 - **Key Topics:** toString, equals, hashCode, getClass, clone, member/static/anonymous inner classes
 
 ## 📊 Learning Progression
@@ -89,7 +89,7 @@ Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Res
 - **W8S8:** Complete all 17 programs (5 practice + 6 lab + 6 assignment)
 
 ### Advanced Java Concepts Track
-- **W9S9:** Complete all 7 programs (7 assignment)
+- **W9S9:** Complete all 19 programs (6 practice + 6 lab + 7 assignment)
 
 ## 📁 Repository Structure
 ```
@@ -137,7 +137,9 @@ STEP/
 │   └── assignment/ (AbstractShape, PlayableInterface, VehicleFuelSystem, InterfaceInheritance, BankAbstraction, MultipleInterfaceConflict)
 └── W9S9/                       # Object Class Methods & Inner Classes
     ├── README.md & COMPLETION_STATUS.md
-    └── assignment/ (VehicleRental, EmployeeAuth, PaymentGateway, Registration, HospitalManagement, AppConfigurator, NotificationService)
+    ├── practice/ (6 files)
+    ├── lab/ (6 files)
+    └── assignment/ (7 files)
 ```
 
 ## 🚀 Getting Started
