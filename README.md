@@ -63,14 +63,22 @@ This repository contains a comprehensive Java programming course structured as w
 - **Files:** 19 total (6 practice + 6 lab + 7 assignment)
 - **Key Topics:** toString, equals, hashCode, getClass, clone, member/static/anonymous inner classes
 
+### 🎨 Software Design Track (Week 10)
+
+#### **W10S10 - UML Diagrams and Object-Oriented Design**
+- **Focus:** UML diagrams and their Java implementations
+- **Files:** 12 total (3 problems with 4 files each)
+- **Key Topics:** Class diagrams, object diagrams, sequence diagrams, composition vs association
+- **Difficulty:** Intermediate to Advanced
+
 ## 📊 Learning Progression
 
 ```
-Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Polymorphism (W7S7) → Expert (W8S8) → Master (W9S9)
-     ↓                    ↓                      ↓                     ↓                ↓              ↓
-String Basics    →  String Mastery    →    OOP Mastery    →    Method Dispatch   →  Abstraction    → Advanced Java
-Custom Logic     →  Performance       →    System Design  →    Type Safety      →  Design Patterns → Object Methods
-Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Resolution → Professional   → Inner Classes
+Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Polymorphism (W7S7) → Expert (W8S8) → Master (W9S9) → Architect (W10S10)
+     ↓                    ↓                      ↓                     ↓                ↓              ↓                ↓
+String Basics    →  String Mastery    →    OOP Mastery    →    Method Dispatch   →  Abstraction    → Advanced Java  →  Software Design
+Custom Logic     →  Performance       →    System Design  →    Type Safety      →  Design Patterns → Object Methods →  UML Modeling
+Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Resolution → Professional   → Inner Classes →  System Architecture
 ```
 
 ## 🎯 Completion Requirements
@@ -90,6 +98,9 @@ Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Res
 
 ### Advanced Java Concepts Track
 - **W9S9:** Complete all 19 programs (6 practice + 6 lab + 7 assignment)
+
+### Software Design Track
+- **W10S10:** Complete all 3 problems (12 files total) with UML understanding
 
 ## 📁 Repository Structure
 ```
@@ -135,11 +146,16 @@ STEP/
 │   ├── practice/ (Vehicle, BankAccount, PaymentGateway, MultipleInterfaces, Employee)
 │   ├── lab/ (FruitEdible, ShapeDrawable, VehicleMaintainable, EmployeePayable, AnimalSoundable, DeviceConnectable)
 │   └── assignment/ (AbstractShape, PlayableInterface, VehicleFuelSystem, InterfaceInheritance, BankAbstraction, MultipleInterfaceConflict)
-└── W9S9/                       # Object Class Methods & Inner Classes
+├── W9S9/                       # Object Class Methods & Inner Classes
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (6 files)
+│   ├── lab/ (6 files)
+│   └── assignment/ (7 files)
+└── W10S10/                     # UML Diagrams & Object-Oriented Design
     ├── README.md & COMPLETION_STATUS.md
-    ├── practice/ (6 files)
-    ├── lab/ (6 files)
-    └── assignment/ (7 files)
+    ├── Problem1_LibraryManagement/ (4 files)
+    ├── Problem2_OnlineShopping/ (4 files)
+    └── Problem3_ATMTransaction/ (4 files)
 ```
 
 ## 🚀 Getting Started
@@ -163,7 +179,7 @@ STEP/
    ```
 
 3. **Follow the progression:**
-   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W7S7 → W8S8 → W9S9
+   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W7S7 → W8S8 → W9S9 → W10S10
    - Use COMPLETION_STATUS.md files to track progress
 
 ## 💡 Study Tips
@@ -198,6 +214,12 @@ STEP/
 - Apply object comparison and cloning strategies
 - Implement professional Java patterns
 
+### For Software Design (W10S10)
+- Study UML diagram types and their purposes
+- Practice translating UML designs to Java code
+- Understand composition vs association relationships
+- Focus on object interaction modeling
+
 ## 🏆 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -213,6 +235,8 @@ After completing this course, you will be able to:
 - ✅ Implement professional-grade software architecture
 - ✅ Apply advanced Java concepts and inner classes
 - ✅ Handle object methods and cloning strategies
+- ✅ Design and implement UML diagrams in Java
+- ✅ Master software architecture and system design
 
 ## 📈 Progress Tracking
 
