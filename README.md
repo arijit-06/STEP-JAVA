@@ -78,18 +78,41 @@ This repository contains a comprehensive Java programming course structured as w
 #### **W10S10 - UML Diagrams and Object-Oriented Design**
 
 - **Focus:** UML diagrams and their Java implementations
-- **Files:** 12 total (3 problems with 4 files each)
+- **Files:** 17 total (3 practice + 6 lab + 6 assignment)
 - **Key Topics:** Class diagrams, object diagrams, sequence diagrams, composition vs association
 - **Difficulty:** Intermediate to Advanced
+
+### 🥞 Data Structures Track (Weeks 11-13)
+
+#### **W11S11 - Stack Implementation and Applications**
+
+- **Focus:** Stack data structure and LIFO principle applications
+- **Files:** 10 total (2 practice + 5 lab + 3 assignment)
+- **Key Topics:** Expression evaluation, undo operations, bracket matching
+- **Difficulty:** Intermediate to Advanced
+
+#### **W12S12 - Queue Implementation and Applications**
+
+- **Focus:** Queue data structure and FIFO principle applications
+- **Files:** 7 total (2 practice + 2 lab + 3 assignment)
+- **Key Topics:** Circular queues, service systems, scheduling algorithms
+- **Difficulty:** Intermediate to Advanced
+
+#### **W13S13 - Linked Lists and Memory Management**
+
+- **Focus:** Dynamic data structures and pointer manipulation
+- **Files:** 11 total (5 practice + 6 assignment)
+- **Key Topics:** Singly/doubly/circular linked lists, algorithms, memory management
+- **Difficulty:** Advanced
 
 ## 📊 Learning Progression
 
 ```
-Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Polymorphism (W7S7) → Expert (W8S8) → Master (W9S9) → Architect (W10S10)
-     ↓                    ↓                      ↓                     ↓                ↓              ↓                ↓
-String Basics    →  String Mastery    →    OOP Mastery    →    Method Dispatch   →  Abstraction    → Advanced Java  →  Software Design
-Custom Logic     →  Performance       →    System Design  →    Type Safety      →  Design Patterns → Object Methods →  UML Modeling
-Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Resolution → Professional   → Inner Classes →  System Architecture
+Beginner (W1S1) → Intermediate (W2S2) → Advanced (W3S3-W6S6) → Polymorphism (W7S7) → Expert (W8S8) → Master (W9S9) → Architect (W10S10) → Data Structures (W11S11-W13S13)
+     ↓                    ↓                      ↓                     ↓                ↓              ↓                ↓                        ↓
+String Basics    →  String Mastery    →    OOP Mastery    →    Method Dispatch   →  Abstraction    → Advanced Java  →  Software Design    →    Algorithm Design
+Custom Logic     →  Performance       →    System Design  →    Type Safety      →  Design Patterns → Object Methods →  UML Modeling      →    Memory Management
+Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Resolution → Professional   → Inner Classes →  System Architecture →   Dynamic Structures
 ```
 
 ## 🎯 Completion Requirements
@@ -117,7 +140,13 @@ Basic Algorithms →  Advanced Algos    →    Real Applications → Runtime Res
 
 ### Software Design Track
 
-- **W10S10:** Complete all 3 problems (12 files total) with UML understanding
+- **W10S10:** Complete 3 practice + any 4 lab + any 4 assignment = 11 programs
+
+### Data Structures Track
+
+- **W11S11:** Complete 2 practice + any 4 lab + all 3 assignment = 9 programs
+- **W12S12:** Complete 2 practice + 2 lab + all 3 assignment = 7 programs
+- **W13S13:** Complete any 3 practice + all 6 assignment = 9 programs
 
 ## 📁 Repository Structure
 
@@ -169,11 +198,25 @@ STEP/
 │   ├── practice/ (6 files)
 │   ├── lab/ (6 files)
 │   └── assignment/ (7 files)
-└── W10S10/                     # UML Diagrams & Object-Oriented Design
+├── W10S10/                     # UML Diagrams & Object-Oriented Design
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (3 problems, 12 files)
+│   ├── lab/ (6 files)
+│   └── assignment/ (6 files)
+├── W11S11/                     # Stack Implementation & Applications
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (2 files)
+│   ├── lab/ (5 files)
+│   └── assignment/ (3 files)
+├── W12S12/                     # Queue Implementation & Applications
+│   ├── README.md & COMPLETION_STATUS.md
+│   ├── practice/ (2 files)
+│   ├── lab/ (2 files)
+│   └── assignment/ (3 files)
+└── W13S13/                     # Linked Lists & Memory Management
     ├── README.md & COMPLETION_STATUS.md
-    ├── Problem1_LibraryManagement/ (4 files)
-    ├── Problem2_OnlineShopping/ (4 files)
-    └── Problem3_ATMTransaction/ (4 files)
+    ├── practice/ (5 files)
+    └── assignment/ (6 files)
 ```
 
 ## 🚀 Getting Started
@@ -201,7 +244,7 @@ STEP/
    ```
 
 3. **Follow the progression:**
-   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W7S7 → W8S8 → W9S9 → W10S10
+   - Complete W1S1 → W2S2 → W3S3 → W4S4 → W5S5 → W6S6 → W7S7 → W8S8 → W9S9 → W10S10 → W11S11 → W12S12 → W13S13
    - Use COMPLETION_STATUS.md files to track progress
 
 ## 💡 Study Tips
@@ -248,6 +291,14 @@ STEP/
 - Understand composition vs association relationships
 - Focus on object interaction modeling
 
+### For Data Structures (W11S11-W13S13)
+
+- Master LIFO and FIFO principles
+- Understand memory management and pointers
+- Practice algorithm implementation on data structures
+- Apply data structures to real-world problems
+- Focus on time and space complexity analysis
+
 ## 🏆 Learning Outcomes
 
 After completing this course, you will be able to:
@@ -266,6 +317,11 @@ After completing this course, you will be able to:
 - ✅ Handle object methods and cloning strategies
 - ✅ Design and implement UML diagrams in Java
 - ✅ Master software architecture and system design
+- ✅ Implement and manipulate stack data structures
+- ✅ Apply queue algorithms in scheduling systems
+- ✅ Master linked list operations and memory management
+- ✅ Analyze time and space complexity of algorithms
+- ✅ Build efficient data structure solutions
 
 ## 📈 Progress Tracking
 
