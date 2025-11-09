@@ -1,126 +1,151 @@
 # W10S10 - UML Diagrams and Object-Oriented Design
 
 ## 📚 Session Overview
-This session focuses on UML (Unified Modeling Language) diagrams and their implementation in Java. You'll learn to design and implement systems using Class Diagrams, Object Diagrams, and Sequence Diagrams.
+
+This session focuses on UML (Unified Modeling Language) diagrams and their Java implementations, covering system design, object relationships, and behavioral modeling.
 
 ## 🎯 Learning Objectives
-- Understand UML diagram types and their purposes
-- Design Class Diagrams with proper relationships
-- Create Object Diagrams showing runtime instances
-- Model Sequence Diagrams for method interactions
-- Implement UML designs in Java code
-- Apply composition and association relationships
 
-## 📋 Problems Overview
+By the end of this session, you will be able to:
 
-### Problem 1: Library Management System (Class Diagram)
-**Focus:** Class relationships, Composition vs Association
-- **Classes:** Library, Book, Member
-- **Relationships:** Composition (Library-Book), Association (Member-Book)
-- **Key Concepts:** Object ownership, multiplicity
+- ✅ Understand and implement Class Diagrams in Java
+- ✅ Create Object Diagrams showing runtime instances
+- ✅ Model Sequence Diagrams for method interactions
+- ✅ Design Use Case Diagrams for functional requirements
+- ✅ Build Activity Diagrams for workflow processes
+- ✅ Implement State Diagrams for object lifecycles
+- ✅ Apply composition vs association relationships
+- ✅ Translate UML designs to working Java code
 
-### Problem 2: Online Shopping System (Object Diagram)
-**Focus:** Runtime object instances and their links
-- **Classes:** Customer, Order, Product
-- **Concepts:** Object instances, attribute values, runtime relationships
+## 📖 Topics Covered
 
-### Problem 3: ATM Transaction System (Sequence Diagram)
-**Focus:** Method call sequences and interactions
-- **Classes:** Customer, ATM, BankAccount
-- **Concepts:** Message flow, lifelines, method invocation order
+### 🏗️ Structural Diagrams
+- **Class Diagrams:** System structure and relationships
+- **Object Diagrams:** Runtime instances and links
+- **Composition vs Association:** Ownership relationships
 
-## 🔧 Key UML Concepts
+### 🔄 Behavioral Diagrams
+- **Sequence Diagrams:** Method interaction over time
+- **Use Case Diagrams:** Functional system overview
+- **Activity Diagrams:** Workflow and process modeling
+- **State Diagrams:** Object lifecycle management
 
-### Class Diagram Elements
-- **Classes:** Rectangles with name, attributes, methods
-- **Relationships:** Association, Composition, Inheritance
-- **Visibility:** + (public), - (private), # (protected)
-- **Multiplicity:** 1, *, 1..*, 0..1
+### 🎯 Design Patterns
+- **Aggregation:** Has-a relationships
+- **Composition:** Part-of relationships
+- **Association:** Uses-a relationships
+- **Multiplicity:** One-to-many mappings
 
-### Object Diagram Elements
-- **Objects:** Instances with actual values
-- **Links:** Runtime connections between objects
-- **Values:** Specific attribute values at runtime
+## 🚀 Problem Categories
 
-### Sequence Diagram Elements
-- **Lifelines:** Vertical lines representing objects
-- **Messages:** Arrows showing method calls
-- **Activation:** Rectangles showing method execution
+### Practice Problems (3 Problems)
+1. **LibraryManagement** - Class diagram with composition/association
+2. **OnlineShopping** - Object diagram with runtime instances
+3. **ATMTransaction** - Sequence diagram with method interactions
 
-## 📁 Directory Structure
+### Lab Problems (Any 4 of 6)
+1. **LibrarySystem** - Class diagram structure
+2. **StudentTeacher** - Object diagram instances
+3. **OnlineOrder** - Sequence diagram flow
+4. **ATMSystem** - Use case diagram
+5. **StudentRegistration** - Activity diagram workflow
+6. **OrderLifecycle** - State diagram transitions
+
+### Assignment Problems (Any 4 of 6)
+1. **BankAccountSystem** - Class diagram with relationships
+2. **RuntimeInstances** - Object diagram implementation
+3. **OnlineShoppingFlow** - Sequence diagram modeling
+4. **HospitalManagement** - Use case diagram design
+5. **UniversityRegistration** - Activity diagram process
+6. **TicketLifecycle** - State diagram implementation
+
+## 📁 File Structure
+
 ```
 W10S10/
 ├── README.md
 ├── COMPLETION_STATUS.md
-├── Problem1_LibraryManagement/
-│   ├── Book.java
-│   ├── Library.java
-│   ├── Member.java
-│   └── LibraryDemo.java
-├── Problem2_OnlineShopping/
-│   ├── Product.java
-│   ├── Order.java
-│   ├── Customer.java
-│   └── ShoppingDemo.java
-└── Problem3_ATMTransaction/
-    ├── BankAccount.java
-    ├── ATM.java
-    ├── Customer.java
-    └── ATMDemo.java
+├── practice/
+│   ├── LibraryManagement/
+│   │   ├── Book.java
+│   │   ├── Library.java
+│   │   ├── Member.java
+│   │   └── LibraryDemo.java
+│   ├── OnlineShopping/
+│   │   ├── Product.java
+│   │   ├── Order.java
+│   │   ├── Customer.java
+│   │   └── ShoppingDemo.java
+│   └── ATMTransaction/
+│       ├── BankAccount.java
+│       ├── ATM.java
+│       ├── Customer.java
+│       └── ATMDemo.java
+├── lab/
+│   ├── LibrarySystem.java
+│   ├── StudentTeacher.java
+│   ├── OnlineOrder.java
+│   ├── ATMSystem.java
+│   ├── StudentRegistration.java
+│   └── OrderLifecycle.java
+└── assignment/
+    ├── BankAccountSystem.java
+    ├── RuntimeInstances.java
+    ├── OnlineShoppingFlow.java
+    ├── HospitalManagement.java
+    ├── UniversityRegistration.java
+    └── TicketLifecycle.java
 ```
 
-## 🚀 Getting Started
+## 🎯 Key UML Concepts
 
-1. **Study UML Basics:**
-   - Understand different diagram types
-   - Learn relationship symbols
-   - Practice reading diagrams
+### Class Diagram Elements
+- **Classes:** Attributes, methods, visibility
+- **Relationships:** Association, aggregation, composition
+- **Multiplicity:** 1..1, 1..*, 0..* notations
+- **Inheritance:** Generalization relationships
 
-2. **Implement Each Problem:**
-   - Start with Problem 1 (Class Diagram)
-   - Move to Problem 2 (Object Diagram)
-   - Complete with Problem 3 (Sequence Diagram)
+### Object Diagram Features
+- **Instance representation:** object:Class notation
+- **Attribute values:** Runtime data display
+- **Links:** Actual connections between objects
+- **Snapshot view:** System state at specific time
 
-3. **Test Your Implementation:**
-   - Run each demo class
-   - Verify expected output
-   - Understand object interactions
+### Sequence Diagram Components
+- **Lifelines:** Participant objects
+- **Messages:** Method calls and returns
+- **Activation boxes:** Method execution time
+- **Time ordering:** Top-to-bottom flow
 
 ## 💡 Implementation Tips
 
-### For Class Diagrams
-- Focus on proper encapsulation (private fields)
-- Implement composition correctly (ownership)
-- Use association for borrowing/using relationships
+### Design Principles
+- **Single Responsibility:** Each class has one purpose
+- **Encapsulation:** Private attributes, public methods
+- **Composition over Inheritance:** Prefer has-a over is-a
+- **Loose Coupling:** Minimize dependencies
 
-### For Object Diagrams
-- Create specific instances with real values
-- Show actual runtime relationships
-- Demonstrate object state at specific time
+### Relationship Mapping
+- **Association:** Independent objects with references
+- **Aggregation:** Whole-part with independent lifecycle
+- **Composition:** Whole-part with dependent lifecycle
+- **Inheritance:** Is-a relationships with extends
 
-### For Sequence Diagrams
-- Follow method call order precisely
-- Handle return values appropriately
-- Show interaction between objects clearly
+## 📊 Completion Requirements
 
-## 🎯 Expected Outcomes
+- **Practice:** Complete all 3 problems (12 files total)
+- **Lab:** Complete any 4 out of 6 problems
+- **Assignment:** Complete any 4 out of 6 problems
+- **Total:** 11 programs minimum
 
-After completing this session, you should be able to:
-- ✅ Design Class Diagrams with proper relationships
-- ✅ Implement composition and association in Java
-- ✅ Create Object Diagrams showing runtime state
-- ✅ Model Sequence Diagrams for method interactions
-- ✅ Translate UML designs into working Java code
-- ✅ Understand object-oriented design principles
+## 🎓 Real-World Applications
 
-## 📈 Success Criteria
-
-- All three problems implemented correctly
-- Proper UML relationship implementation
-- Clean, readable code structure
-- Correct output from demo classes
-- Understanding of UML concepts
+- **Software Architecture:** System design and documentation
+- **Database Design:** Entity-relationship modeling
+- **Business Process:** Workflow automation
+- **System Analysis:** Requirements gathering and modeling
+- **Team Communication:** Visual system representation
 
 ---
 
-**Focus on understanding the relationship between UML design and Java implementation!**
+**Master UML modeling and system design! 🏗️**
